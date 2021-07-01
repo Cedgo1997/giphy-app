@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Fragment } from 'react';
 import { AddCategory } from './components/AddCategory';
+import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
 
@@ -16,7 +17,11 @@ export const GifExpertApp = () => {
 
             <ol>
                 {
-                    categories.map((item) => <li key={item}>{item}</li>)
+                    categories.map((category) => 
+                        <GifGrid 
+                            category = {category} 
+                            key={category}
+                        />)
                 }
             </ol>
         </Fragment>
