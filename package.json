@@ -1,5 +1,5 @@
 {
-  "homepage":"https://cedgo1997.github.io/giphy-app",
+  "homepage": "https://cedgo1997.github.io/giphy-app",
   "name": "gif-expert-app",
   "version": "0.1.0",
   "private": true,
@@ -39,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.2",
+    "enzyme-to-json": "^3.6.2",
     "gh-pages": "^3.2.3"
   }
 }
