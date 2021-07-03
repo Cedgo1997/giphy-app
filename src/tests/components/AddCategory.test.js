@@ -1,5 +1,5 @@
 import { shallow } from "enzyme";
-import { AddCategory } from "../components/AddCategory";
+import { AddCategory } from "./../../components/AddCategory";
 import React from 'react';
 
 describe('Pruebas en AddCategory', () => {
